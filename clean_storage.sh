@@ -1,6 +1,7 @@
 #!/bin/bash
 
 find / -name "*.pepindex" -type f -delete 2> /dev/null
+find / -name "*.fragtmp" -type f -delete 2> /dev/null
 find / -name "*.mzBIN_calibrated" -type f -delete 2> /dev/null
 find / -name ".meta/*.bin" -type f -delete 2> /dev/null
 find / -name "*.serFS" -type f -delete 2> /dev/null
