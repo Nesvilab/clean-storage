@@ -14,4 +14,6 @@ find /storage/ -name "*.ScanidxFS" -type f -delete 2> /dev/null &
 find /storage/ -name "*.ScanPosFS" -type f -delete 2> /dev/null &
 find /storage/ -name "*.ScanRTFS" -type f -delete 2> /dev/null &
 find /storage/ -name "*.ser" -type f -delete 2> /dev/null &
-
+find /storage/ -name "*.quantindex" -type f -delete 2> /dev/null &
+find /storage/ -name "*.quantbin*" -type f -delete 2> /dev/null &
+find /storage/ -name "*.mbrbin" -type f -delete 2> /dev/null &
