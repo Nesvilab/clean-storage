@@ -17,3 +17,4 @@ find /storage/ -name "*.ser" -type f -delete 2> /dev/null &
 find /storage/ -name "*.quantindex" -type f -delete 2> /dev/null &
 find /storage/ -name "*.quantbin*" -type f -delete 2> /dev/null &
 find /storage/ -name "*.mbrbin" -type f -delete 2> /dev/null &
+find /storage/ -name "*_uncalibrated.mzBIN" -type f -delete 2> /dev/null &
